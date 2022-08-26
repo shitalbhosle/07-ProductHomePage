@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: Poppins; 
+   /* background-color: #f8982a; */
+}
+/*-------Navbar------*/
+nav{
+    /* border:2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav img{
+    /* border:2px solid yellow; */
+    width:100px;
+    margin-top: 38px;
+    margin-left: 3rem;
+}
+nav img:last-child{
+    width:15rem;
+    margin-left: 145px;
+}
+.nav-items{
+    /* border:2px solid blue; */
+    display: flex;
+}
+.nav-item{
+    margin-right: 80px;
+    font-size: 20px;
+    margin-top: 38px;
+   
+}
+.active-item{
+    color:#f8982a;
+}
+/*--------Hero Section-------*/
+.intro-section{
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-section{
+    margin-top:5rem;
+    /* border: 2px solid green; */
+}
+.left-section h3{
+    /* border:2px solid yellow; */
+    margin-left: 77px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.left-section h3 img{
+    width:50px;
+}
+.left-section h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+.sub-headlines h5{
+    font-size: 20px;
+}
+.sub-headline{
+    margin-top:15px;
+    /* border:2px solid purple; */
+    margin-left: 164px;
+}
+.sub-headline img{
+     background-color: red; 
+    padding:4px;
+    border-radius:50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.text{
+    /* width:500px; */
+    margin-left: 83px;
+    margin-top:10px;
+    color: gray;
+}
+.action-btns{
+    /* border:2px solid grey; */
+    margin-left: 83px;
+    margin-top:40px;
+}
+.action-btn{
+    background-color: red;
+    padding:13px 17px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: 500;
+    
+}
+/*-------------Right Section----------*/
+.headphone-div{
+    border:2px solid white;
+    position: relative;
+    
+}
+.discount{
+    position: absolute;
+    top:60%;
+    left:10%;
+    width:150px;
+    
+    /* border:2px solid indigo; */
+}
+.discount-content{
+    /* border:2px solid red; */
+    position: absolute;
+    top:67%;
+    left:17%;
+    color:#fff;
+}
+.discount-content h4{
+    font-weight: 900;
+    font-size: 15px;
+    margin-left:-10px;
+}
+.discount-content h1{
+    font-size: 40px;
+    margin-left:-10px;
+}
+.right-section img:last-child{
+    /* border:2px solid black; */
+    width:500px;
+    margin-left: 75px;
+    margin-top:30px;
+}
+.dots{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    width:30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 20px;
+    margin-right:20px;
+}
+.yellow-dot{
+    background-color: yellow;
+}
+.tomato-dot{
+    background-color: tomato;
+}
+.black-dot{
+    background-color: black;
+}
+.right-section .action-btn{
+    margin-left: 280px;
+    margin-top:10px;
+}
